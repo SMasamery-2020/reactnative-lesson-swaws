@@ -66,3 +66,6 @@ For Text:
 # Example
   Many people enjoy iPhones rather than Androids due to the simple and consistantly well-made UI even though Android is open-source and can be tinkered to anyone's liking.
   This is a result of good layouts and images.
+
+# Reference
+  https://reactnative.dev/docs/
