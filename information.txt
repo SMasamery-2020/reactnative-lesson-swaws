@@ -1,6 +1,6 @@
 ## Advanced layouts and images
 # Element
-Margins and Images
+Images, Margins, and Text
 
 # Syntax
 For images:
@@ -25,9 +25,44 @@ For margins:
   margin: initial;
   margin: unset;
 
+For Text:
+  const fontStyles = ["normal", "italic"];
+  const fontVariants = [
+    undefined,
+    "small-caps",
+    "oldstyle-nums",
+    "lining-nums",
+    "tabular-nums",
+    "proportional-nums"
+  ];
+  const fontWeights = [
+    "normal",
+    "bold",
+    "100",
+    "200",
+    "300",
+    "400",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ];
+  const textAlignments = ["auto", "left", "right", "center", "justify"];
+  const textDecorationLines = [
+    "none",
+    "underline",
+    "line-through",
+    "underline line-through"
+  ];
+  const textDecorationStyles = ["solid", "double", "dotted", "dashed"];
+  const textTransformations = ["none", "uppercase", "lowercase", "capitalize"];
+  const textAlignmentsVertical = ["auto", "top", "bottom", "center"];
+  const writingDirections = ["auto", "ltr", "rtl"];
 
 # How to use it
   Makes UI/Aesthetic better
 
 # Example
-  Many people enjoy iPhones rather than Androids due to the simple and consistantly well-made UI even though Android is open-source and can be tinkered to anyone's liking. This is a result of good layouts and images
+  Many people enjoy iPhones rather than Androids due to the simple and consistantly well-made UI even though Android is open-source and can be tinkered to anyone's liking.
+  This is a result of good layouts and images.
