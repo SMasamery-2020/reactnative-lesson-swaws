@@ -1,1 +1,71 @@
+## Advanced layouts and images
+# Element
+Images, Margins, and Text
 
+# Syntax
+For images:
+  <Image source={require('./my-icon.png')} />
+
+For margins:
+  /* Apply to all four sides */
+  margin: 1em;
+  margin: -3px;
+
+  /* vertical | horizontal */
+  margin: 5% auto;
+
+  /* top | horizontal | bottom */
+  margin: 1em auto 2em; 
+
+  /* top | right | bottom | left */
+  margin: 2px 1em 0 auto;
+
+  /* Global values */
+  margin: inherit;
+  margin: initial;
+  margin: unset;
+
+For Text:
+  const fontStyles = ["normal", "italic"];
+  const fontVariants = [
+    undefined,
+    "small-caps",
+    "oldstyle-nums",
+    "lining-nums",
+    "tabular-nums",
+    "proportional-nums"
+  ];
+  const fontWeights = [
+    "normal",
+    "bold",
+    "100",
+    "200",
+    "300",
+    "400",
+    "500",
+    "600",
+    "700",
+    "800",
+    "900"
+  ];
+  const textAlignments = ["auto", "left", "right", "center", "justify"];
+  const textDecorationLines = [
+    "none",
+    "underline",
+    "line-through",
+    "underline line-through"
+  ];
+  const textDecorationStyles = ["solid", "double", "dotted", "dashed"];
+  const textTransformations = ["none", "uppercase", "lowercase", "capitalize"];
+  const textAlignmentsVertical = ["auto", "top", "bottom", "center"];
+  const writingDirections = ["auto", "ltr", "rtl"];
+
+# How to use it
+  Makes UI/Aesthetic better
+
+# Example
+  Many people enjoy iPhones rather than Androids due to the simple and consistantly well-made UI even though Android is open-source and can be tinkered to anyone's liking.
+  This is a result of good layouts and images.
+
+# Reference
+  https://reactnative.dev/docs/
